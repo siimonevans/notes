@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Notes</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0788FF">
+    <meta name="application-name" content="Notes" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper__inner">
+        <div class="notepad">
+          <h1 class="notepad__heading">Notes</h1>
+          <textarea class="notepad__textarea" id="notes" placeholder="Start typing&hellip;"></textarea>
+          <p class="notepad__description">
+            A simple offline-capable notepad, powered by a Service Worker and Local Storage.
+          </p>
+          <p class="notepad__description">
+            Enter a note, close your internet connection and reload the page.
+          </p>
+        </div>
+        <div class="sidebar"></div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
