@@ -1,13 +1,12 @@
-Notes
-========
+#Notes
+===
 
-An offline-capable notepad, based on using a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API).
+An offline-capable notepad, based on using [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) and PWA techniques.
 
 ## Features
 
-  - Write notes which are then saved to [localStorage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage).
-  - Offline-capable thanks to Service Worker.
-  - "Add To Home Screen" feature on Android supported devices to launch the app from the home screen.
+  - Write notes and save them to [localStorage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage)
+  - Use Service Worker to enable offline viewing
+  - "Add To Home Screen" feature on Android supported devices
   
-## Gotchas
-  - Service Workers only run on https.
+ View the demo [here](https://sii.im/playground/notes) on a capable device.
