@@ -6,6 +6,7 @@ var CACHE_FILES = [
     'index.html',
     'js/app.js',
     'js/jquery.min.js',
+    'js/cache-polyfill.js',
     'css/style.css',
     'favicon.ico',
     'manifest.json',

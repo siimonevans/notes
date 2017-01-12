@@ -1,8 +1,11 @@
 $(document).ready(function(){
+
+   // Save user input to localStorage
   $( '#notes' ).bind( 'input propertychange' , function(){
     localStorage.setItem( 'note', $(this).val());
   });
 
+  // Display localStorage data, if it exists
   if( localStorage.getItem( 'note' ) && localStorage.getItem( 'note' )!='' ){
     var noteItem = localStorage.getItem( 'note' );
     $( '#notes' ).val( noteItem );
