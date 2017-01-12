@@ -61,19 +61,13 @@ body {
   }
 }
 
-  .notepad__hero {
+  .notepad__heading {
     width: 100%;
-    padding: 50px 40px 15px;
+    padding: 60px 40px 15px;
     border-bottom: 1px solid #f5f4f4;
+    color: #5f5f5f;
+    font-weight: 400;
   }
-
-    .notepad__heading {
-      width: 100%;
-      padding: 60px 40px 15px;
-      border-bottom: 1px solid #f5f4f4;
-      color: #5f5f5f;
-      font-weight: 400;
-    }
 
   .notepad__textarea {
     border: 0;
