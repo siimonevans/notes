@@ -46,6 +46,7 @@ body {
     height: 100vh;
     margin: 0;
     box-shadow: none;
+    animation: none;
   }
 }
 
