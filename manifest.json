@@ -2,6 +2,7 @@
   "short_name": "Notes",
   "name": "Notes",
   "display": "standalone",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "img/icon-60.png",
@@ -9,8 +10,8 @@
       "type": "image/png"
     },
     {
-      "src": "img/icon-96.png",
-      "sizes": "96x96",
+      "src": "img/icon-114.png",
+      "sizes": "114x114",
       "type": "image/png"
     },
     {
@@ -20,6 +21,6 @@
     }
   ],
   "start_url": "index.html",
-  "theme_color": "#0788FF",
-  "background_color": "#ffffff"
+  "theme_color": "#fff",
+  "background_color": "#cba1b4"
 }
