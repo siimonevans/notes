@@ -18,9 +18,14 @@
       "src": "img/icon-152.png",
       "sizes": "152x152",
       "type": "image/png"
+    },
+    {
+      "src": "img/icon-200.png",
+      "sizes": "200x200",
+      "type": "image/png"
     }
   ],
   "start_url": "index.html",
   "theme_color": "#fff",
-  "background_color": "#cba1b4"
+  "background_color": "#fff"
 }

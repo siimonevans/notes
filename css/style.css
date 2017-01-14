@@ -14,6 +14,14 @@ body {
   background-image: linear-gradient(155deg, #e6b3e5, #ffac8d);
 }
 
+@media screen and (max-width: 500px) {
+  body {
+    height: auto;
+    min-height: 100vh;
+    background: none;
+  }
+}
+
 @keyframes fadein {
   from { 
     opacity: 0;
