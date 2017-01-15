@@ -1,11 +1,12 @@
 {
   "short_name": "Notes",
   "name": "Notes",
+  "description" : "An offline-capable notes app, using localStorage and ServiceWorker",
   "display": "standalone",
   "orientation": "portrait",
   "start_url": "index.html",
-  "theme_color": "#fff",
-  "background_color": "#fff",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
   "icons": [
     {
       "src": "img/icon-60.png",
