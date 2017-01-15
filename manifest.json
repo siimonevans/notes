@@ -3,6 +3,9 @@
   "name": "Notes",
   "display": "standalone",
   "orientation": "portrait",
+  "start_url": "index.html",
+  "theme_color": "#fff",
+  "background_color": "#fff",
   "icons": [
     {
       "src": "img/icon-60.png",
@@ -24,8 +27,5 @@
       "sizes": "200x200",
       "type": "image/png"
     }
-  ],
-  "start_url": "index.html",
-  "theme_color": "#fff",
-  "background_color": "#fff"
+  ]
 }
