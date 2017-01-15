@@ -173,8 +173,28 @@ body {
       background-color 300ms ease;
   }
 
+  @media screen and (max-width: 500px) {
+    .info,
+    .twitter {
+      position: absolute;
+      z-index: 2;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+   .info {
+    right: 40px;
+   } 
+  }
+
   .twitter {
     top: 45px;
+  }
+
+  @media screen and (max-width: 500px) {
+   .twitter {
+    top: 0;
+   } 
   }
 
   .info svg,
@@ -184,6 +204,14 @@ body {
     fill: #fff;
     transition:
       fill 300ms ease;
+  }
+
+  @media screen and (max-width: 500px) {
+   .info svg,
+   .twitter svg {
+    width: 20px;
+    fill: #333;
+   } 
   }
 
   .info:hover svg,
