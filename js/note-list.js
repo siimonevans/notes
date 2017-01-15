@@ -62,7 +62,7 @@ $(document).ready(function () {
         displayNotes();
 
         // Create new note
-        $noteForm.submit(function() {
+        $noteForm.on( 'submit', function () {
             storeNote();
             return false;
         });
