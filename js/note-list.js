@@ -9,7 +9,6 @@ $(document).ready(function () {
           $noteFormInput    = $( '.notepad__form-input' ),
           $clearList        = $( '.notepad__clear' ),
           clearListDisplay  = 'notepad__clear--display',
-          i                 = 0,
           noteCount         = 0;
 
       function displayNotes() {
