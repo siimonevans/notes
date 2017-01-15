@@ -11,7 +11,7 @@ body {
 
 body {
   height: 100vh;
-  background: linear-gradient(to left, #B24592 , #F15F79);
+  background: #23B0B0;
 }
 
 @media screen and (max-width: 500px) {
@@ -46,7 +46,7 @@ body {
   background-color: #fff;
   overflow: hidden;
   border-radius: 5px;
-  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 20px 80px rgba(99, 99, 99, 0.6);
   animation: fadein 1s;
 }
 
