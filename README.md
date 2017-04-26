@@ -9,5 +9,5 @@ View the demo [here](https://sii.im/playground/notes) on a [capable device.](htt
 ## Features
 
   - Write notes and save them to [localStorage](https://developer.mozilla.org/en/docs/Web/API/Window/localStorage)
-  - Use Service Worker to enable offline viewing
+  - Use [Service Worker](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers) to enable offline viewing
   - "Add To Home Screen" feature on Android supported devices
