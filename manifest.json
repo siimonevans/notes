@@ -1,6 +1,6 @@
 {
-  "short_name": "Notes",
-  "name": "Notes",
+  "short_name": "notes",
+  "name": "notes",
   "description" : "An offline-capable notes app, using localStorage and ServiceWorker",
   "display": "standalone",
   "orientation": "portrait",
@@ -24,8 +24,8 @@
       "type": "image/png"
     },
     {
-      "src": "img/icon-200.png",
-      "sizes": "200x200",
+      "src": "img/icon-558.png",
+      "sizes": "558x558",
       "type": "image/png"
     }
   ]
