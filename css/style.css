@@ -81,6 +81,14 @@ body {
     font-weight: 400;
   }
 
+  .notepad__form-label {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+  }
+
   .notepad__form-input {
     border: 0;
     width: 100%;
@@ -177,6 +185,11 @@ body {
     padding: 15px 15px 12px 15px;
     transition:
       background-color 300ms ease;
+  }
+
+  .info span,
+  .twitter span {
+    display: none;
   }
 
   @media screen and (max-width: 500px) {
