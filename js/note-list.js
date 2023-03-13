@@ -11,12 +11,15 @@ $(document).ready(function () {
           clearListDisplay  = 'notepad__clear--display',
           noteCount         = 0;
 
-      function displayNotes() {
-        for (noteCount = 0; noteCount < localStorage.length; noteCount++) {
-          var noteID        = 'task-' + noteCount;
+          function displayNotes() {
+            for (noteCount = 0; noteCount < localStorage.length; noteCount++) {
+              var noteID        = 'task-' + noteCount;
 
           // Build note list
-          $noteList.append("<li class='notepad__list-item' id='" + noteID + "'>" + localStorage.getItem(noteID) + "</li>");
+          if(localStorage.getItem(noteID).trim().length){
+            //if input is not an empty string.
+            $noteList.append("<li class='notepad__list-item' id='" + noteID + "'>" + localStorage.getItem(noteID) + "</li>");
+          }
 
           // Show reset button
           $clearList.addClass( clearListDisplay );
@@ -33,37 +36,36 @@ $(document).ready(function () {
 
             // Add to note list
             $noteList.append( "<li class='notepad__list-item' id='" + noteID + "'>" + taskMessage + "</li>" );
-
             // Display reset button
             if ( !$clearList.hasClass( clearListDisplay ) ) {
               $clearList.addClass( clearListDisplay );
             }
-
+            
             // Reset
             $noteFormInput.val('');
             noteCount++;
+          }
         }
-      }
-
-      function clearNotes() {
-
+        
+        function clearNotes() {
+          
           // Update DOM
           $noteList.empty();
           $clearList.removeClass( clearListDisplay );
-
+          
           // Clear storage
           localStorage.clear();
           noteCount = 0;
-      }
-
-      function bindEvents() {
-
+        }
+        
+        function bindEvents() {
+          
         // Show any existing notes from localStorage
         displayNotes();
 
         // Create new note
         $noteForm.on( 'submit', function () {
-            storeNote();
+          storeNote();
             return false;
         });
 
@@ -77,4 +79,4 @@ $(document).ready(function () {
     };
 
     noteList();
-});
+  });
